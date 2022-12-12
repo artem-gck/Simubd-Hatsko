@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Horny", 
+        "dob": "1992-2-13", 
+        "loves": [
+            "carrot",
+            "papaya"
+            ],
+        "weight": 600, 
+        "gender": "m", 
+        "vampires": 63  
+    },
+    {
+        "name": "Aurora", 
+        "dob": "1991-1-23", 
+        "loves": [
+            "carrot",
+            "grape"
+            ],
+        "weight": 450, 
+        "gender": "m", 
+        "vampires": 43
+    },
+    {
+        "name": "Unicrom", 
+        "dob": "1973-1-9", 
+        "loves": [
+            "energon",
+            "redbull"
+            ],
+        "weight": 984, 
+        "gender": "m", 
+        "vampires": 182
+    },
+    {
+        "name": "Roooooodles", 
+        "dob": "1979-7-18", 
+        "loves": [
+            "apple"
+            ],
+        "weight": 575, 
+        "gender": "m", 
+        "vampires": 99
+    },
+    {
+        "name": "Solnara", 
+        "dob": "1985-6-4", 
+        "loves": [
+            "apple",
+            "carrot",
+            "lemon"
+            ],
+        "weight": 550, 
+        "gender": "f", 
+        "vampires": 80
+    },
+    {
+        "name": "Ayna", 
+        "dob": "1998-2-7", 
+        "loves": [
+            "strawberry",
+            "lemon"
+            ],
+        "weight": 773, 
+        "gender": "f", 
+        "vampires": 40
+    },
+    {
+        "name": "Kenny", 
+        "dob": "1997-6-1", 
+        "loves": [
+            "grape",
+            "lemon"
+            ],
+        "weight": 690, 
+        "gender": "m", 
+        "vampires": 2
+    },
+    {
+        "name": "Releigh", 
+        "dob": "2005-4-3", 
+        "loves": [
+            "apple",
+            "sugar"
+            ],
+        "weight": 421, 
+        "gender": "m", 
+        "vampires": 2
+    },
+    {
+        "name": "Leia", 
+        "dob": "2001-9-8", 
+        "loves": [
+            "apple",
+            "watermelon"
+            ],
+        "weight": 601, 
+        "gender": "f", 
+        "vampires": 33
+    },
+    {
+        "name": "Pilot", 
+        "dob": "1997-2-1", 
+        "loves": [
+            "apple",
+            "watermelon"
+            ],
+        "weight": 650, 
+        "gender": "m", 
+        "vampires": 54
+    },
+    {
+        "name": "Nimue", 
+        "dob": "1999-11-20", 
+        "loves": [
+            "grape",
+            "carrot"
+            ],
+        "weight": 540, 
+        "gender": "f"
+    }
+]

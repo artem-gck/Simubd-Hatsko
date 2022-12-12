@@ -1,0 +1,27 @@
+-- 2 часть
+
+-- 1
+
+db.createCollection("areas")  
+db.areas.insertOne({_id:"field", name:"Magic Fileds"})
+db.areas.insertOne({_id:"clouds", name:"Magic Clouds"})
+
+-- 2
+
+db.unicorns.updateOne({_id:ObjectId("638371be1afd7086efe5f8cd")},{$set: {area:{$ref:"areas", $id: "clouds"}}})
+db.unicorns.updateOne({_id:ObjectId("638371be1afd7086efe5f8c9")},{$set: {area:{$ref:"areas", $id: "fields"}}})
+db.unicorns.ensureIndex({"name" : 1}, {"unique" : true}) 
+
+-- 3
+
+db.unicorns.getIndexes()
+db.unicorns.dropIndex("name_1")
+db.unicorns.dropIndex("_id_")
+
+-- 4
+
+db.createCollection("numbers") 
+for(i = 0; i < 100000; i++){db.numbers.insert({value: i})}
+db.numbers.find().sort({$natural:-1}).limit(4)
+db.numbers.ensureIndex({"value" : 1})
+db.numbers.find().sort({$natural:-1}).limit(4)

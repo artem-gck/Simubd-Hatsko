@@ -1,0 +1,26 @@
+use learn
+
+-- 2
+db.unicorns.find({gender: 'm'}).sort({name: 1})
+db.unicorns.find({gender: 'f'}).sort({name: 1}).limit(3)
+
+db.unicorns.find({gender: 'f', loves: 'carrot'}).limit(1)
+db.unicorns.findOne({gender: 'f', loves: 'carrot'})
+
+-- 3
+db.unicorns.find({gender: 'm'}, {gender: 0, dob: 0})
+
+-- 4
+db.unicorns.find().sort({$natural: -1})
+
+-- 5
+db.unicorns.find({}, {loves: {$slice : 1}, _id: 0})
+
+-- 6
+db.unicorns.find({weight: {$gte: 500, $lt: 700}, gender: 'f'}, {_id: 0})
+
+-- 7
+db.unicorns.find({weight: {$gte: 500}, loves: {$in: ['grape', 'lemon']}, gender: 'm'}, {_id: 0})
+
+-- 8
+db.unicorns.find({vampires: {$exists: true}})
